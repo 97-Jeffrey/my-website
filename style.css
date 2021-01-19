@@ -137,6 +137,7 @@ footer {
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
+  font-weight: 600;
   font-family: "Ubuntu", sans-serif;
 }
 .about .about-content {
@@ -215,7 +216,6 @@ footer {
 
 .skill {
   font-family: "Poppins", sans-serif;
-  background: rgb(226, 225, 225);
 }
 .skill .max-width h2 {
   text-align: center;
@@ -225,6 +225,7 @@ footer {
 .skill .max-width .skill-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .skill .max-width .skill-content div {
@@ -368,6 +369,12 @@ footer {
 .experince .all-experince .first .title {
   font-size: 20px;
   font-weight: 500;
+}
+.experince .all-experince .first .duty {
+  border: 5px solid crimson;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 12px;
 }
 .experince .all-experince .first .duty li {
   list-style: none;
