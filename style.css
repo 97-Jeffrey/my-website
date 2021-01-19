@@ -33,10 +33,11 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100px;
 }
 .navbar .logo a {
   color: #fff;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 600;
 }
 .navbar.sticky .logo a span {
@@ -54,7 +55,7 @@ html {
 .navbar .menu li a {
   color: #fff;
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 23px;
   transition: color 0.5s;
 }
 
@@ -87,7 +88,7 @@ html {
   display: flex;
   background: url("images/IMG_2997.PNG") no-repeat center center;
   width: 100%;
-  min-height: 1000px;
+  min-height: 1200px;
   font-family: "Ubuntu", sans-serif;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -152,8 +153,8 @@ footer {
   width: 45%;
 }
 .about .about-content .left img {
-  height: 400px;
-  width: 300px;
+  height: 450px;
+  width: 330px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -161,6 +162,10 @@ footer {
   width: 55%;
 }
 
+.about .about-content .right .paragraph {
+  font-size: 20px;
+  font-weight: 500;
+}
 .contact-btn {
   font-family: "Poppins", sans-serif;
   padding: 10px;
@@ -205,14 +210,17 @@ footer {
   width: 250px;
   text-align: center;
   margin-bottom: 7px;
+  font-size: 18px;
 }
 .education .institute .degree {
   padding-left: 20px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 .education .institute .about {
   width: 400px;
   padding-left: 20px;
+  font-size: 20px;
 }
 /* css for skill */
 
@@ -223,6 +231,7 @@ footer {
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 .skill .max-width .skill-content {
   display: flex;
@@ -248,7 +257,7 @@ footer {
 }
 
 .skill .max-width .skill-content ul li {
-  font-size: 20px;
+  font-size: 25px;
   list-style: none;
   font-weight: 300;
   width: auto;
@@ -275,7 +284,7 @@ footer {
   border-radius: 6px;
   padding: 25px 35px;
   transition: all 0.5s ease;
-  height: 250px;
+  height: 300px;
 }
 .projects .carousel .card:hover {
   background: crimson;
@@ -313,6 +322,9 @@ footer {
 }
 .projects .carousel .card .box .front {
   font-size: 12px;
+}
+.projects .carousel .card .box p {
+  font-size: 20px;
 }
 .owl-dots {
   text-align: center;
@@ -353,17 +365,19 @@ footer {
 }
 .experince .all-experince .employment h3 {
   margin-bottom: 30px;
-  width: 160px;
+  width: 230px;
   text-align: center;
   background: crimson;
   border-radius: 7px;
+  font-size: 30px;
 }
 .experince .all-experince .volunteer h3 {
   margin-bottom: 30px;
-  width: 160px;
+  width: 200px;
   text-align: center;
   background: crimson;
   border-radius: 7px;
+  font-size: 30px;
 }
 .experince .all-experince .first {
   margin-bottom: 50px;
@@ -371,12 +385,14 @@ footer {
 .experince .all-experince .first .title {
   font-size: 20px;
   font-weight: 500;
+  font-size: 25px;
 }
 .experince .all-experince .first .duty {
   border: 5px solid crimson;
   border-radius: 10px;
   padding: 10px;
   margin-top: 12px;
+  font-size: 20px;
 }
 .experince .all-experince .first .duty li {
   list-style: none;
