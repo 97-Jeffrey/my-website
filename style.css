@@ -85,12 +85,14 @@ html {
 /* css for home */
 .home {
   display: flex;
-  background: url("images/IMG_2997.PNG") no-repeat center;
-  background-size: auto;
-  height: 170vh;
-  min-height: 500px;
+  background: url("images/IMG_2997.PNG") no-repeat center center;
+  width: 100%;
+  min-height: 1000px;
   font-family: "Ubuntu", sans-serif;
-  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: #fff;
 }
 .home .max-width {
