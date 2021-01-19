@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My website</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+</head>
+<body>
+ 
+
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="#"><div class='port'> My <span>P</span>ro<span>t</span>fo<span>lio</span></div></a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experince">Experiences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-btn" >
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">Hey, My Name is </div>
+        <div class="text-2">Jeffrey Shao</div>
+        <div class="text-3">I'm a  <span class='typing'></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class='title'>About me</h2>
+      <div class="about-content">
+        <div class="cloumn left">
+          <img src="/images/IMG_1005.JPG" alt="">
+        </div>
+        <div class="cloumn right">
+         
+          <p class='paragraph'>Hey, I am Jeffrey, I am a full-stack developer who is passionate about software and web development. though I don't have a degree in computer science, I'm motivated and inspired by technologies and dedicated to learn something new. I finished web development coding bootcamp at Lighthouse Labs and decorated with numerous projects with JavaScript as the core language. After the bootcamp, I continued to expand my stacks and expose myself to more languages, including Java and Python. Currently, I am actively seeking for jobs related to web/software developments and constantly learning. If you are currently looking for co-op, junior or intern web developer(front-end, back-end and full-stack), please feel free to contact me.</P>
+          <a href="#contact" class='contact-btn'>Contact Me</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class='education' id='education'>
+    <div class="max-width">
+      <h2>Educations</h2>
+      <div class="education-container">
+        <div class='institute'>
+          <div class='name'>Lighthouse Labs </div>
+          <div class='date'>From July 2020 - Oct 2020</div>
+          <div class="degree">Certificate: MANIFESTO OF SOFTWARE CRAFTSMANSHIP</div>
+          <div class="about">Full stack web development program with lectures and projects of modern development skills,languages, framework.</div>
+        </div>
+        <div class='institute'>
+          <div class='name'>University of British Columbia </div>
+          <div class='date'>From Sept 2016 - May 2020</div>
+          <div class="degree">Bacholer degree in Earth and Ocean Science</div>
+          <div class="about">main courses are focused on Geology,mineralogy, oceanography, paleontology, with different lab activities.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skill" id="skill">
+    <div class="max-width">
+      <h2>My Skills</h2>
+      <div class="skill-content">
+        <div class='lang-section'>
+          <span>Languages</span>
+          <ul class="language">
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Ruby</li>
+          </ul>
+        </div>
+        <div class='library-section'>
+          <span>Libraries/Frameworks</span>
+          <ul class="language">
+            <li>React.js</li>
+            <li>express.js</li>
+            <li>Node.js</li>
+            <li>Django</li>
+            <li>Ruby On Rails</li>
+            <li>SASS</li>
+            <li>LESS</li>
+            <li>Bootstrap</li>
+            <li>EJS/ERB templating engine</li>
+          </ul>
+        </div>
+        <div class='library-section'>
+          <span>DataBase/Environments</span>
+          <ul class="language">
+            <li>SQL</li>
+            <li>PostgresSQL</li>
+            <li>Sqlite</li>
+            <li>Git</li>
+            <li>PostMan API</li>
+            <li>Heroku Deployments</li>
+          </ul>
+        </div>
+        <div class='library-section'>
+          <span>Testing tools</span>
+          <ul class="language">
+            <li>Mocha</li>
+            <li>Chai</li>
+            <li>Jest</li>
+            <li>Cypress</li>
+            <li>Storybook</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="max-width">
+      <h2>My Projects</h2>
+      <div class="carousel owl-carousel ">
+        <div class="card">
+          <div class="box">
+            <div class='title'>Info Display</div>
+            <p>This apps renders a list of students. User can search students by their names or added tags. </p>
+            <a href="https://github.com/97-Jeffrey/Student-Info-Display" target='_blank' class='link'>Go to project</a>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class='title'>Activity Finder</div> 
+            <p>This app allows user to search activities for based on ideal budgets and locations.</p>
+            <a href="https://github.com/97-Jeffrey/activity-finder" target='_blank'class='link'>Go to project</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class='title'>Scheduler</div>
+            <p>this SPA app allows user to book interviews with desired instructors from Monday to Friday.</p>
+            <a href="https://github.com/97-Jeffrey/scheduler" target ='_blank'class='link'>Go to project</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class='title'>Story Creator</div>
+            <p>users of this app can create stories, append others' story contributions into their stories, or make contributions for others.</p>
+            <a href="https://story-creator-club.herokuapp.com/" target='_blank' class='link'>Go to project</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class='title' >Tweeter</div>
+            <p>this app allows user to write a tweet, and send the tweet on the page with word limit of 140.</p>
+            <a href="https://small-simple-chatter.herokuapp.com/" target='_blank' class='link'>Go to project</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class='title'>TinyApp</div>
+            <p>this app allows convertion of a long url into a encoded short urls, linking to the save address of the original ones</p>
+            <a href="https://github.com/97-Jeffrey/tinyapp" target='_blank' class='link'>Go to project</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="experince" id="experince">
+    <div class="max-width">
+      <h2>My Experiences</h2>
+      <div class="all-experince">
+        <div class="employment">
+          <h3>Employments</h3>
+          <div class="first">
+            <div class="title">Research Student</div>
+            <div class="location">UBC Earth Science lab</div>
+            <ul class="duty">
+              <li>- Classify fossils based on their types and ages</li>
+              <li>- Sort classified fosssils into contianers</li>
+              <li>- Carry fossils to different lab sessions to utiliz</li>
+            </ul>
+          </div>
+          <div class="first">
+            <div class="title">Entrance Service</div>
+            <div class="location">UBC Welcome Back BBQ</div>
+            <ul class="duty">
+              <li>- Supervise at entrance to ensure no one sneaks into the event</li>
+              <li>- Scan tickets at entrance for ticket validity</li>
+              <li>- Re-verify validity at the entrance when they are invalid</li>
+            </ul>
+          </div>
+        </div>
+        <div class="volunteer">
+          <h3>Volunteers</h3>
+          <div class="first">
+            <div class="title">Meal Delivery Service</div>
+            <div class="location">Meals On Wheels Vancouver</div>
+            <ul class="duty">
+              <li>- Pick up bags of prepared meals from the kitchen in Downtown</li>
+              <li>- Deliver cooked meals to home-bound individuals(mostly seniors) in designated delivery area</li>
+              <li>- Communicate patiently with seniors in needs and provide customized services.</li>
+            </ul>
+          </div>
+          <div class="first">
+            <div class="title">Stage Setup/Preparation</div>
+            <div class="location">Canada Day Celebration Festival</div>
+            <ul class="duty">
+              <li>- Control flows of people entering and exiting audience sections.</li>
+              <li>- Setup stages includes drums arrangements from drum inventory for performers</li>
+              <li>- Carry different sizes of drums onto front stage prior to their performances.</li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id ='contact'>
+    <div class="max-width">
+      <h2>Contacts</h2>
+      <div class="contact-info">
+        <div>	
+          <i class='fas fa-phone'></i> 
+          <a class='phone' href="tel:778-891-3109">778 891 3109</a>
+        </div>
+        <div>
+          <i class="material-icons">email</i>
+          <a class='email' href="mailto:shaoyuhao970909@gmail.com">
+            shaoyuhao970909@gmail.com</a>
+        </div>
+        <div>
+          <i class='fab fa-linkedin'></i> 
+          <a class='linkedin' href="https://www.linkedin.com/in/jeffrey-shao/" target='_blank'>My Linkedin</a>
+        </div>
+        <div>
+          <i class='fas fa-home'></i>
+          <a class='address' href="https://www.google.ca/maps" target='_blank'>Vancouver, BC Canada</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Created by  <span class='name'>Jeffrey Shao</span> | <span class='far fa-copyright'></span>2021 all rights reserved</span>
+  </footer>
+
+  <script src='script.js'></script>
+</body>
+</html>
