@@ -384,8 +384,9 @@ footer {
 
 .contact .contact-info div {
   margin-top: 10px;
-  margin-left: 250px;
-  width: 600px;
+  /* margin-left: 250px; */
+  margin: auto;
+  width: 50%;
 }
 .contact .contact-info div i {
   font-size: 35px;
@@ -416,25 +417,39 @@ footer {
 footer .name {
   color: crimson;
 }
+
+@media (max-width: 1204px) {
+  .contact .contact-info div a {
+    font-size: 20px;
+  }
+}
 @media (max-width: 1104px) {
   .home .max-width {
     margin-left: 0;
   }
-  @media (max-width: 1002px) {
-    .education .max-width .education-container {
-      display: block;
-    }
-    .education .institute {
-      margin: auto;
-      width: 50%;
-      margin-bottom: 40px;
-    }
+  .skill-content {
+    margin: auto;
+    width: 50%;
+  }
+}
+@media (max-width: 1002px) {
+  .education .max-width .education-container {
+    display: block;
+  }
+  .education .institute {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
   }
+}
+@media (max-width: 946px) {
+}
+@media (max-width: 943px) {
 }
 
 @media (max-width: 907px) {
