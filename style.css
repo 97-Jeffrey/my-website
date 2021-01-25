@@ -140,6 +140,7 @@ footer {
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
+  margin-top: 100px;
   font-weight: 600;
   font-family: "Ubuntu", sans-serif;
 }
@@ -186,11 +187,13 @@ footer {
 .education {
   background: rgb(37, 33, 33);
   color: #fff;
+  height: 800px;
 }
 .education h2 {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 .education .max-width .education-container {
   display: flex;
@@ -273,11 +276,13 @@ footer {
   font-family: "Poppins", sans-serif;
   background: #000000;
   color: #fff;
+  height: 900px;
 }
 
 .projects .max-width h2 {
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 70px;
   font-size: 40px;
 }
 .projects .carousel .card {
@@ -358,7 +363,8 @@ footer {
 .experince .max-width h2 {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 .experince .all-experince {
   display: flex;
@@ -402,10 +408,13 @@ footer {
 }
 
 /* styling for contact */
+.contact {
+  height: 700px;
+}
 .contact .max-width h2 {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .contact .contact-info div {
@@ -436,7 +445,7 @@ footer {
 
 footer {
   background: rgb(34, 34, 34);
-  padding: 40px 23px;
+  padding: 60px 23px;
   color: #fff;
   text-align: center;
 }
