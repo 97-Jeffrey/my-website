@@ -32,9 +32,10 @@ html {
 .navbar .max-width {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 100px;
 }
+
 .navbar .logo a {
   color: #fff;
   font-size: 45px;
@@ -43,6 +44,7 @@ html {
 .navbar.sticky .logo a span {
   color: #fff;
 }
+
 .navbar .logo a span {
   color: crimson;
   transition: all 0.5s ease;
@@ -104,9 +106,11 @@ html {
 }
 .home .home-content {
   width: 500px;
+  height: 215px;
 }
 .home .home-content .text-1 {
   font-size: 27px;
+  margin-top: 20px;
 }
 
 .home .home-content .text-2 {
